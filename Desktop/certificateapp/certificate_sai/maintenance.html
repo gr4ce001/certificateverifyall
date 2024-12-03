@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Maintenance</title>
+    <style>
+      .poppins-regular {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      .error_box {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(241, 234, 234);
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .error_box_container {
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+      }
+
+      .error_svg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+
+      .error_svg svg {
+        width: 3.5rem;
+        aspect-ratio: 1/1;
+      }
+    </style>
+  </head>
+  <body class="poppins-regular">
+    <div class="error_box">
+      <div class="error_box_container">
+        <div class="error_svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="red"
+          >
+            <path
+              d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="">Server is under maintenance</div>
+      </div>
+    </div>
+  </body>
+</html>

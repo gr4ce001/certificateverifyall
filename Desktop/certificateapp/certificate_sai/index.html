@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>certifypro</title>
+    <style>
+      .poppins-regular {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 0.9rem;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      .box_mobile {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(241, 234, 234);
+      }
+
+      .box_mobile_container {
+        width: 90%;
+        height: fit-content;
+
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+      }
+      .mobile_svg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+
+      .mobile_svg svg {
+        width: 3.5rem;
+        aspect-ratio: 1/1;
+      }
+
+      .mobile_heading_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .mobile_main_heading {
+        display: flex;
+        color: #685ec3;
+        font-size: 1.4rem !important;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+      }
+      .mobile_subheading {
+        font-size: 0.75rem;
+        color: #b5b3b3;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .mobile_information_box {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+      }
+
+      .mobile_button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5046e5;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        margin-top: 1rem;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .mobile_information_box span {
+        font-weight: bold;
+        color: black;
+      }
+    </style>
+  </head>
+  <body class="poppins-regular">
+    <!-- box mobile  -->
+    <div class="box_mobile">
+      <div class="box_mobile_container">
+        <div class="mobile_svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="#3C81F9"
+          >
+            <path
+              d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="mobile_heading_box">
+          <div class="mobile_main_heading">Certificate has been verified.</div>
+          <div class="mobile_subheading">
+            the Student's information has been successfully verified
+          </div>
+        </div>
+        <div class="mobile_information_box">
+          <div class="mobile_info"><span>Name:</span> Killi Sai Prithvi</div>
+          <div class="mobile_info">
+            <span>Email:</span> killisaiprithvipvt@gmail.com
+          </div>
+          <div class="mobile_info">
+            <span>Domain:</span> Full-Stack Web Development
+          </div>
+          <div class="mobile_info"><span>Duration:</span> 2 months</div>
+        </div>
+        <div class="mobile_button">
+          <a href="maintenance.html">Go to the Certification</a>
+        </div>
+      </div>
+    </div>
+    <!-- box mobile end -->
+  </body>
+</html>
